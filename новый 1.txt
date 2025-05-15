@@ -1,0 +1,20 @@
+генерация id через UUID random
+добавить lombok и @Getter @Setter @ToString @EqualsAndHashCode etc...
+
+        this.id = id;
+        this.name = name;
+        this.coordinates = coordinates;
+        this.creationDate = new Date();
+        this.oscarsCount = oscarsCount;			через setter
+        this.usaBoxOffice = usaBoxOffice;
+        this.genre = genre;
+        this.mpaaRating = mpaaRating;
+        this.director = director;
+		
+конструктор через this(...)
+
+
+core убрать
+
+https://github.com/ssnagin/java-sem2-lab6/
+

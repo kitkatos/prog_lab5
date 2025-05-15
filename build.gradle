@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+version = '2'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    implementation 'jakarta.xml.bind:jakarta.xml.bind-api:4.0.0'
+    implementation 'com.sun.xml.bind:jaxb-impl:4.0.2'
+    implementation 'com.sun.xml.bind:jaxb-core:4.0.2'
+}
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+application {
+    mainClass = 'Main'
+}
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'Main' // или 'com.example.Main', если у вас есть package
+        )
+    }
+}
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(JavaExec) {
+    jvmArgs '-Dfile.encoding=UTF-8'
+}

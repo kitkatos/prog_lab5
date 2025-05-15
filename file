@@ -1,0 +1,13 @@
+<collection>
+	<movie>
+		<id>1<\id>
+		<name>film<\name>
+		<coordinates>
+			<x>123.0<\x>
+			<y>123.0<\y>
+		<creationDate>Wed May 14 02:46:33 MSK 2025<\creationDate>
+		<usaBoxOffice>123<\usaBoxOffice>
+		<genre><\genre>
+		<mpaaRating><\mpaaRating>
+		<director><\director>
+<\collection>

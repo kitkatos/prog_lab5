@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies>
+    <collection>
+        <movie>
+            <name>Пятный</name>
+            <coordinates>
+                <x>25</x>
+                <y>125</y>
+            </coordinates>
+            <oscarsCount>55</oscarsCount>
+            <usaBoxOffice>829000000</usaBoxOffice>
+            <genre>ACTION</genre>
+            <mpaaRating>PG</mpaaRating>
+            <director>
+                <directorName>MR TEN</directorName>
+                <birthday>2023-10-15 12:00:00</birthday>
+                <height>100</height>
+                <weight>100</weight>
+                <passportID>P111111</passportID>
+            </director>
+        </movie>
+        <movie>
+            <name>Десятый</name>
+            <coordinates>
+                <x>100</x>
+                <y>200</y>
+            </coordinates>
+            <oscarsCount>1</oscarsCount>
+            <usaBoxOffice>11111111111</usaBoxOffice>
+            <genre>ACTION</genre>
+            <mpaaRating>PG</mpaaRating>
+            <director></director>
+        </movie>
+    </collection>
+</movies>
